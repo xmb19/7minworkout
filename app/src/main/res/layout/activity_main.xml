@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan"
+    android:padding="@dimen/ana_ekran_ana_layout_padding"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/flStart"
+        android:contentDescription="@string/image"
+        android:src="@drawable/img_main_page"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+
+    <FrameLayout
+        android:id="@+id/flStart"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/item_ripple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BAŞLA"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/defaultButtonYaziBoyutu"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flVKI"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/item_circular_color_accent_background"
+        app:layout_constraintEnd_toStartOf="@id/flGecmis"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VKİ"
+            android:textColor="@color/arkaplan"
+            android:textSize="@dimen/defaultButtonYaziBoyutu"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:text="VKİ Hesaplayıcı"
+       android:textColor="@color/colorAccent"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="@id/flVKI"
+       app:layout_constraintStart_toStartOf="@id/flVKI"
+       app:layout_constraintTop_toBottomOf="@+id/flVKI"
+       />
+
+    <FrameLayout
+        android:id="@+id/flGecmis"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/item_circular_color_accent_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toEndOf="@id/flVKI"
+        app:layout_constraintTop_toBottomOf="@+id/flStart"
+        android:layout_gravity= "center"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_calendar"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Geçmiş"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/flGecmis"
+        app:layout_constraintStart_toStartOf="@id/flGecmis"
+        app:layout_constraintTop_toBottomOf="@+id/flGecmis"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

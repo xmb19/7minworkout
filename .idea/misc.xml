@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable-v24/item_circular_thin_color_accent_border.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/cember_progress_bar.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/cember_progress_gray.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/circular_progress_bar.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/circular_progress_gray.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/ic_action_done.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/item_cember_color_accent_bg.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.2765625" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/item_circular_color_gray_background.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/drawable/item_ripple.xml" value="0.2765625" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/activity_bitis.xml" value="0.2152777777777778" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/activity_egzersiz.xml" value="0.2" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/activity_vki.xml" value="0.6" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/dialog_geri_tusu.xml" value="0.134375" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/diaolog_ger.xml" value="0.134375" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/item_egzersiz_status.xml" value="0.536" />
+        <entry key="..\:/Users/Murat/AndroidStudioProjects/workoutin7minutes/app/src/main/res/layout/item_gecmis_row.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
